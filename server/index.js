@@ -5,6 +5,9 @@ import helmet from 'helmet';
 
 const app = express();
 
+// Curbside.setAppId("CURBSIDE_APP_ID");
+// Curbside.setUsageToken("CURBSIDE_USAGE");
+
 app.use(helmet());
 app.use(express.static(__dirname + './../client/dist'));
 app.use(bodyParser.json());
