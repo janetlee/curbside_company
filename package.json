@@ -1,0 +1,40 @@
+{
+  "name": "curbside_company",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec --require babel-core/register **/*.spec.js --exit",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon --exec babel-node -- server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janetlee/curbside_company.git"
+  },
+  "author": "Janet Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janetlee/curbside_company/issues"
+  },
+  "homepage": "https://github.com/janetlee/curbside_company#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "helmet": "^3.10.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.14.12",
+    "webpack": "^3.10.0"
+  }
+}
