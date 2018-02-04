@@ -14,10 +14,7 @@ DROP TABLE IF EXISTS 'route';
 
 CREATE TABLE route (
   id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
-  stops VARCHAR(100) NOT NULL,
+  client_id INT NOT NULL,
   eta VARCHAR(100) NOT NULL,
-  driver_id INT,
-    INDEX driver_idx (driver_id),
-    FOREIGN KEY (driver_id)
-    REFERENCES driver(id)
+  driver_id INT
 );

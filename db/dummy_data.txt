@@ -1,0 +1,16 @@
+insert into client (site_id, phone, address, latitude, longitude, date) values('hackathonsf2018_55930','415-555-1212','680 Folsom Street, San Francisco, CA 94107','37.7845','-122.4007','2018-02-10 10:00:00');
+insert into client (site_id, phone, address, latitude, longitude, date) values('hackathonsf2018_23976','415-555-1215','1200 Mission Street, San Francisco, CA 94114','37.7774','-122.4153','2018-02-10 11:00:00');
+insert into client (site_id, phone, address, latitude, longitude, date) values('hackathonsf2018_31047','415-555-1213','100 Landers Street, San Francisco, CA 94114','37.7662','-122.4299','2018-02-10 11:00:00');
+insert into client (site_id, phone, address, latitude, longitude, date) values('hackathonsf2018_34735','415-555-1214','1200 Dolores Street, San Francisco, CA 94114','37.7500','-122.4275','2018-02-10 11:00:00');
+insert into client (site_id, phone, address, latitude, longitude, date) values('hackathonsf2018_72394','415-555-1216','1200 Valencia Street, San Francisco, CA 94114','37.7534','-122.4232','2018-02-10 12:00:00');
+insert into client (site_id, phone, address, latitude, longitude, date) values('hackathonsf2018_10957','415-555-1217','1000 Sanchez Street, San Francisco, CA 94114','37.7531','-122.4320','2018-02-10 12:00:00');
+insert into client (site_id, phone, address, latitude, longitude, date) values('hackathonsf2018_47092','415-555-1218','1000 Church Street, San Francisco, CA 94114','37.7531','-122.4320','2018-02-10 12:00:00');
+
+
+insert into route (client_id, eta, driver_id) values (1,'2018-02-10 10:40:00',1);
+insert into route (client_id, eta, driver_id) values (2,'2018-02-10 11:00:00',1);
+insert into route (client_id, eta, driver_id) values (3,'2018-02-10 11:20:00',1);
+insert into route (client_id, eta, driver_id) values (4,'2018-02-10 11:40:00',1);
+insert into route (client_id, eta, driver_id) values (5,'2018-02-10 12:10:00',1);
+insert into route (client_id, eta, driver_id) values (6,'2018-02-10 12:40:00',1);
+insert into route (client_id, eta, driver_id) values (7,'2018-02-10 13:00:00',1);
