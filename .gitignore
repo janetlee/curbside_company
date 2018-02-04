@@ -1,4 +1,7 @@
+# Compiled Dirs 
+client/dist/bundle.js
+
+# Dependency directorys
 node_modules/
 .env
 
-client/dist/bundle.js
