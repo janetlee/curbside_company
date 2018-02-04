@@ -2,18 +2,7 @@ import babelPolyfill from 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-import Monitor from './components/Monitor.jsx';
 
-class App extends React.Component{
+import Dashboard from './components/Dashboard.jsx';
 
-  render() {
-    return (
-      <div>
-      test text
-        <Monitor />
-      </div>
-    )
-  }
-}
-
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<Dashboard />, document.getElementById('app'));
