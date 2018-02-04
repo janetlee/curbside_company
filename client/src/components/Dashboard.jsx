@@ -5,7 +5,7 @@ import axios from 'axios';
 const Search = () => (
   <div className="ui loading search">
     <div className="ui icon input">
-      <input className="prompt" type="text" placeholder="Search..."/>>
+      <input className="prompt" type="text" placeholder="Search..."/>
       <i className="search icon"></i>
     </div>
     <div className="results"></div>
@@ -13,36 +13,36 @@ const Search = () => (
 )
 
 const Table = () => (
-  <table class="ui celled table"> 
-    <thead> 
-      <tr> 
-        <th>Header</th> 
-        <th>Header</th> 
-      </tr> 
+  <table class="ui celled table">
+    <thead>
+      <tr>
+        <th>Header</th>
+        <th>Header</th>
+      </tr>
     </thead>
     <tbody>
       <tr>
         <td>Cell</td>
         <td>Cell</td>
-      </tr> 
-      <tr> 
-        <td>Cell</td> 
-        <td>Cell</td> 
-      </tr> 
-      <tr> 
-       <td>Cell</td> 
-       <td>Cell</td> 
-      </tr> 
-    </tbody> 
+      </tr>
+      <tr>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr>
+       <td>Cell</td>
+       <td>Cell</td>
+      </tr>
+    </tbody>
   </table>
 )
 
 const image = 'https://geology.com/world/world-map-clickable.gif';
 
 class Dashboard extends React.Component{
-  constructor(props) { 
+  constructor(props) {
     super(props);
-    
+
   }
 
   render() {
